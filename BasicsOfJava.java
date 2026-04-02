@@ -98,17 +98,136 @@ public class Day1 {
 			
 			
 			//Convertion Of Temperature From Celsius to Fahrenheit and vice versa
-	    	System.out.println("Enter the temperature :");
+
+		
+	 //    	System.out.println("Enter the temperature :");
 			
-			float Temp=scn.nextFloat();
+		// 	float Temp=scn.nextFloat();
 			
-			float F=(Temp*9/5)+32;
+		// 	float F=(Temp*9/5)+32;
 					
-		    System.out.println("Temperature in Fahrenheit is:  "+F);
+		//     System.out.println("Temperature in Fahrenheit is:  "+F);
 			
-		    float C=(Temp-32)*5/9;
-		    System.out.println("Temperature in Celsius For the same input is: "+C);
-		}
+		//     float C=(Temp-32)*5/9;
+		//     System.out.println("Temperature in Celsius For the same input is: "+C);
+		// }
+
+	//Condtional Statements and Loops:
+		
+		//if,elseif and else conditional statements..
+//		int sal=25000;
+//		if(sal>10000) {
+//			sal+=5000;
+//		}
+//		else if (sal>2000) {
+//			sal+=15000;
+//		}
+//		else {
+//			sal+=25000;
+//		}
+//		System.out.println(sal)	;
+//		}
+		
+		//For loop, while loop and do-while loop...
+		
+//	    Scanner scn=new Scanner(System.in);
+//        int n=scn.nextInt();
+//		
+//		for(int i=1;i<=n;i++) {
+//			System.out.println(i);
+//		}
+//	
+//    	int count=1;
+//     	while(count<=n) {
+//			System.out.println(count);
+//			count*=2;
+//		}
+//		int countt=1;
+//		do {
+//			System.out.println(countt);
+//			countt++;
+//		}while(countt<=5);
+		
+		
+		//Switch statement...
+		
+		
+//		Scanner scn=new Scanner(System.in);
+//		System.out.println("Enter fruit Name: ");
+//		String Name=scn.next();
+//		switch(Name) {
+//		case"Mango":
+//			System.out.println("Sweet Fruit");
+//			break;
+//		
+//		case"Apple":
+//			System.out.println("Red Fruit");
+//			break;
+//			
+//		case"Banana":
+//			System.out.println("healthy Fruit");
+//			break;
+//			
+//		default:
+//			System.out.println("Invalid input");
+//		}
+		
+		//Nested Switch statement..
+		
+//		Scanner scn=new Scanner(System.in);
+//		
+//		int EmpNo=scn.nextInt();
+//		String Job=scn.next();
+//		switch(EmpNo) {
+//		case 101:
+//			System.out.println("Shravani");
+//			break;
+//	    case 102:
+//			System.out.println("Ashok");
+//			break;
+//		case 103:
+//			System.out.println("Sheguanshi");
+//			switch(Job) {
+//			case "Manager":
+//				System.out.println("bank-manager");
+//				break;
+//			case"Sales-Person":
+//				System.out.println("Sales-man");
+//				break;
+//			default:
+//				System.out.println("invalid job");
+//			}
+//            break;
+//		default:
+//			System.out.println("invalid Id");
+//		}
+
+		
+		//Reversing A Number...
+
+//		int n=2357987;
+//		int ans=0;
+//		while(n>0) {
+//			int rem=n%10;
+//		     ans=ans*10+rem;
+//			n=n/10;
+//		}
+//		System.out.print(ans);
+//		
+//	}
 
 
+	//Occurance Of A number..
+
+		
+		//  int n=1879898878;
+		//  int count=0;
+		//  while(n>0) {
+		//  if(n%10==8) 
+		// 	 count++;	 
+		//       n=n/10;
+		//  }
+		// System.out.println(count);		 
+  //  }
+  }
 }
