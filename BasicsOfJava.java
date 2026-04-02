@@ -205,39 +205,39 @@ public class BasicsOfJava{
 		
 		//Reversing A Number...
 
-//		int n=2357987;
-//		int ans=0;
-//		while(n>0) {
-//			int rem=n%10;
-//		     ans=ans*10+rem;
-//			n=n/10;
-//		}
-//		System.out.print(ans);
-//		
-//	}
+		int n=2357987;
+		int ans=0;
+		while(n>0) {
+			int rem=n%10;
+		     ans=ans*10+rem;
+			n=n/10;
+		}
+		System.out.print(ans);
+		
+	}
 
 
 	//Occurance Of A number..
 
 		
-		//  int n=1879898878;
-		//  int count=0;
-		//  while(n>0) {
-		//  if(n%10==8) 
-		// 	 count++;	 
-		//       n=n/10;
-		//  }
-		// System.out.println(count);		 
-  //  }
+		 int n=1879898878;
+		 int count=0;
+		 while(n>0) {
+		 if(n%10==8) 
+			 count++;	 
+		      n=n/10;
+		 }
+		System.out.println(count);		 
+   }
 
 //Break and Continue Statements in JAVA..
 
-		// for(int i=0;i<=5;i++) {
-		// 	if(i==2)
-		// 		continue;
-		// 	System.out.println(i);
-		// 	if(i==2) {
-        //   break;
-		// 	}	
+		for(int i=0;i<=5;i++) {
+			if(i==2)
+				continue;
+			System.out.println(i);
+			if(i==2) {
+          break;
+			}	
   }
 }
