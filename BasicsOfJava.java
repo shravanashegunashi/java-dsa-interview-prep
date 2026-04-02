@@ -229,5 +229,15 @@ public class BasicsOfJava{
 		//  }
 		// System.out.println(count);		 
   //  }
+
+//Break and Continue Statements in JAVA..
+
+		// for(int i=0;i<=5;i++) {
+		// 	if(i==2)
+		// 		continue;
+		// 	System.out.println(i);
+		// 	if(i==2) {
+        //   break;
+		// 	}	
   }
 }
